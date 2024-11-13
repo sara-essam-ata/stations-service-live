@@ -1,0 +1,36 @@
+
+#navbar {
+    background-color: #ffffff;
+    z-index: 555;
+    .range,.range-icon {
+        font-size: x-large;
+        margin: 0 5px;
+    }
+    .info {
+        font-size: 14px;
+        position: relative;
+        &::after{
+            content: "Stations";
+            position: absolute;
+            top: 75%;
+            left: 0;
+        }
+    }
+    .info-2 {
+        position: relative;
+        font-size: 14px;
+        &::after{
+            content: "Update";
+            position: absolute;
+            top: 75%;
+            left: 0;
+        }
+    }
+    //datepicker
+    .mat-mdc-text-field-wrapper {
+        background-color: #ffffff ;
+    }
+    .mdc-icon-button {
+        color: #FF7F5C !important;
+    }
+}
